@@ -1,6 +1,6 @@
 {
   "name": "lvicainne-opendkim",
-  "version": "0.3.0",
+  "version": "0.99.0",
   "author": "lvicainne,cruelsmith",
   "license": "Apache-2.0",
   "summary": "Manage an OpenDKIM configuration",
@@ -30,7 +30,8 @@
       "operatingsystemrelease": [
         "9",
         "10",
-        "11"
+        "11",
+        "12"
       ]
     },
     {
@@ -58,7 +59,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 6.24.0 < 8.0.0"
+      "version_requirement": ">= 6.24.0 < 9.0.0"
     }
   ]
 }
